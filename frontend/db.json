@@ -1,0 +1,46 @@
+{
+  "login": {
+    "token": "fake-jwt-token-12345",
+    "user": {
+      "id": 1,
+      "username": "admin",
+      "firstName": "Кирилл",
+      "lastName": "Веснин",
+      "middleName": "Викторович",
+      "laboratory": "Основная лаборатория",
+      "laboratories": [
+        "Основная лаборатория"
+      ],
+      "roles": [
+        "Администратор"
+      ],
+      "appModules": [
+        "LB Support",
+        "LB BioBank"
+      ],
+      "enabled": true
+    }
+  },
+  "users": [
+    {
+      "laboratory": "Основная лаборатория",
+      "username": "annadan",
+      "lastName": "Данилова",
+      "firstName": "Анна",
+      "middleName": "Павловна",
+      "laboratories": [
+        "Основная лаборатория"
+      ],
+      "roles": [
+        "Лаборант"
+      ],
+      "appModules": [
+        "LB Support",
+        "LB Reactive"
+      ],
+      "enabled": true,
+      "id": "1"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
